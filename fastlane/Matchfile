@@ -1,4 +1,4 @@
-git_url "git@github.com:tim-hoffmann/ionic-fastlane-travisci-hockeyapp.git"
+git_url "https://github.com/tim-hoffmann/ionic-fastlane-travisci-hockeyapp.git"
 
 type "development" # The default type, can be: appstore, adhoc, enterprise or development
 
