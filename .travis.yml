@@ -1,0 +1,12 @@
+language: swift
+osx_image: xcode8.3
+cache:
+  - bundler
+before_install:
+  - bundle install
+  - bundle update
+  - npm install -g cordova ionic
+  - npm install
+script:
+  #- ionic cordova platform add ios
+  - fastlane beta
