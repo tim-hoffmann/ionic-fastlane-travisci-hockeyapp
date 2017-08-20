@@ -1,0 +1,1 @@
+[![Circle CI](https://travis-ci.org/tim-hoffmann/ionic-fastlane-travisci-hockeyapp.svg?branch=master)](https://travis-ci.org/tim-hoffmann/ionic-fastlane-travisci-hockeyapp)
