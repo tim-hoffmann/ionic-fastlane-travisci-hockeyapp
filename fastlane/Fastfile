@@ -46,7 +46,7 @@ platform :ios do
       readonly: true
     )
 
-    sh "cd && ionic cordova build ios"
+    sh "cd .. && ionic cordova build ios"
     
     cordova(
       platform: "ios", 
