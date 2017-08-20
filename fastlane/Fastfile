@@ -45,8 +45,13 @@ platform :ios do
       keychain_password: ENV["MATCH_PASSWORD"],
       readonly: true
     )
+
+    sh "cd && ionic cordova build ios"
     
-    cordova(platform: "ios", type: "adhoc")
+    cordova(
+      platform: "ios", 
+      type: "adhoc",
+      cordova_prepare: false)
 
     hockey(
       api_token: ENV["HOCKEYAPP_API_KEY"],

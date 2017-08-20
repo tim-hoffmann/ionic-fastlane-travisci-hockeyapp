@@ -8,5 +8,4 @@ before_install:
   - npm install -g cordova ionic
   - npm install
 script:
-  #- ionic cordova platform add ios
   - fastlane beta
